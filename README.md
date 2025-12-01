@@ -21,6 +21,18 @@ We use **TSL (Three Shading Language)** to write shader logic in JavaScript/Type
 - **Velocity:** `New Velocity = Old Velocity + Forces (Gravity/Noise)`
 - **Position:** `New Position = Old Position + Velocity`
 
+## 4. The Simulations
+
+### 4.1. Gravity Swarm
+A physics attraction model where particles are pulled towards a singularity but maintain momentum, creating an orbiting swarm effect.
+- **Physics:** Central Attraction, Velocity Decay.
+- **Visuals:** Velocity-based color mapping (Blue -> Red).
+
+### 4.2. Atomic Bomb (Project Manhattan)
+A high-yield explosion simulation.
+- **Physics:** High-Impulse Radial Velocity, Air Resistance (Drag), Gravity fall-off.
+- **Visuals:** Thermal Gradient (White Hot -> Orange Fire -> Black Ash).
+
 ## Deployment
 
 1. **Install Dependencies:**
