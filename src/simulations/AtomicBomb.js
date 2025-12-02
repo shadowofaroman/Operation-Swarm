@@ -50,7 +50,7 @@ export function createAtomicBomb(scene, particleCount) {
     const midColor = color(0xff3300);
     const hotColor = color(0xffaa00);
 
-    material.colorNode = heat.mix(coldColor, midColor, hotColor);
+    material.colorNode = heat.mix(coldColor, hotColor);
     material.positionNode = positionLocal.add(positionStorage.element(instanceIndex));
 
     const mesh = new THREE.InstancedMesh(geometry, material, particleCount);

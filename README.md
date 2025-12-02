@@ -29,7 +29,6 @@ A physics attraction model where particles are pulled towards a singularity but 
 - **Visuals:** Velocity-based color mapping (Blue -> Red).
 
 ### 4.2. Atomic Bomb (Project Manhattan)
-A high-yield explosion simulation.
 - **Physics:** High-Impulse Radial Velocity, Air Resistance (Drag), Gravity fall-off.
 - **Visuals:** Thermal Gradient (White Hot -> Orange Fire -> Black Ash).
 
